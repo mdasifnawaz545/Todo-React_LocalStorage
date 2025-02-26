@@ -52,7 +52,7 @@ export function App() {
 
   return (
     <TodoContextProvider value={{ todos, addTodo, deleteTodo, editTodo, isDoneTodo }}>
-      <div className='flex gap-8 justify-start sm:w-full items-center w-full flex-col min-h-screen bg-cover' style={{ backgroundImage: `url(https://res.cloudinary.com/dpqdgcipi/image/upload/v1718641814/3d-rendering-blue-pen-with-paper_pedazy.jpg)` }}>
+      <div className='flex gap-8 justify-start sm:w-full items-center w-full flex-col min-h-screen bg-cover' style={{ backgroundImage: `url(https://res.cloudinary.com/dpqdgcipi/image/upload/v1740578702/my-profit-tutor-8CL8KDg8oAs-unsplash_csobi8.jpg)` }}>
         <Title />
         <InputBox />
         {todos.map((el) => (<div>
